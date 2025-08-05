@@ -1,1 +1,1 @@
-"# Dota Classic Turbo" 
+# Dota Classic Turbo 
