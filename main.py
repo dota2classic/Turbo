@@ -1,7 +1,6 @@
 import re
 import os
 import json
-import math
 
 # === Constants ===
 CONFIG_FILE = "config.json"
@@ -41,7 +40,6 @@ def modify_line(line: str,
                 gold_mult: float,
                 hp_mult: float,
                 armor_mult: float,
-                courier_name: str,
                 courier_settings: dict) -> str:
 
     if unit_name in gold_xp_targets:
@@ -52,7 +50,7 @@ def modify_line(line: str,
         line = HP_PATTERN.sub(lambda m: f'{m.group(1)}{int(round(int(m.group(2)) * hp_mult))}{m.group(3)}', line)
         line = ARMOR_PATTERN.sub(lambda m: f'{m.group(1)}{int(round(float(m.group(2)) * armor_mult))}{m.group(3)}', line)
 
-    if unit_name == courier_name:
+    if unit_name == "npc_dota_courier" or unit_name == "npc_dota_flying_courier":
         line = MOVESPEED_PATTERN.sub(lambda m: f'{m.group(1)}{courier_settings["MovementSpeed"]}{m.group(3)}', line)
         line = HP_PATTERN.sub(lambda m: f'{m.group(1)}{courier_settings["StatusHealth"]}{m.group(3)}', line)
         line = REGEN_PATTERN.sub(lambda m: f'{m.group(1)}{courier_settings["StatusHealthRegen"]}{m.group(3)}', line)
@@ -126,17 +124,6 @@ def process_units(lines: list,
                                gold_mult,
                                hp_mult,
                                armor_mult,
-                               "npc_dota_courier",
-                               courier_settings)
-            line = modify_line(line,
-                               current_unit,
-                               gold_xp_targets,
-                               stats_targets,
-                               xp_mult,
-                               gold_mult,
-                               hp_mult,
-                               armor_mult,
-                               "npc_dota_flying_courier",
                                courier_settings)
 
         output_lines.append(line)
