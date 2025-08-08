@@ -5,11 +5,15 @@
     "HPModifier": 0.75,
     "ArmorModifier": 0.75,
     "CourierOverride": {
+      "BaseClass": "npc_dota_flying_courier",
+      "Model": "models/props_gameplay/donkey_wings.mdl",
+      "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_FLY",
       "MovementSpeed": 2000,
       "StatusHealth": 500,
       "StatusHealthRegen": 5,
       "ArmorPhysical": 50,
-      "MagicalResistance": 100
+      "MagicalResistance": 100,
+      "ShouldDoFlyHeightVisual": "1"
     },
     "UnitsAffectedByGoldXPModifiers": [
       "npc_dota_goodguys_tower1_top",
@@ -189,6 +193,20 @@
       "item_tpscroll": 45,
       "item_travel_boots": 30,
       "item_travel_boots_2": 30
-    }
+    },
+    "SecretShopDisable": [
+      "item_energy_booster",
+      "item_vitality_booster",
+      "item_point_booster",
+      "item_platemail",
+      "item_talisman_of_evasion",
+      "item_hyperstone",
+      "item_ultimate_orb",
+      "item_demon_edge",
+      "item_mystic_staff",
+      "item_reaver",
+      "item_eagle",
+      "item_relic"
+    ]
   }
 }

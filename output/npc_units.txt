@@ -5383,8 +5383,8 @@
 	}
 	"npc_dota_courier"
 	{
-		"BaseClass" "npc_dota_courier"
-		"Model" "models/props_gameplay/donkey.mdl"
+		"BaseClass" "npc_dota_flying_courier"
+		"Model" "models/props_gameplay/donkey_wings.mdl"
 		"SoundSet" ""
 		"Level" "0"
 		"IsAncient" "1"
@@ -5401,7 +5401,7 @@
 		"Ability8" "courier_take_stash_and_transfer_items"
 		"BoundsHullName" "DOTA_HULL_SIZE_SMALL"
 		"HealthBarOffset" "120"
-		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementCapabilities" "DOTA_UNIT_CAP_MOVE_FLY"
 		"MovementSpeed" "2000"
 		"MovementTurnRate" "0.5"
 		"BountyXP" "0"
@@ -5423,6 +5423,7 @@
 		"WakesNeutrals" "0"
 		"ArmorPhysical" "50"
 		"MagicalResistance" "100"
+		"ShouldDoFlyHeightVisual" "1"
 	}
 	"npc_dota_flying_courier"
 	{
@@ -5464,6 +5465,7 @@
 		"HasInventory" "1"
 		"IdleExpression" "scenes\\default_idle.vcd"
 		"WakesNeutrals" "0"
+		"ShouldDoFlyHeightVisual" "1"
 	}
 	"npc_dota_witch_doctor_death_ward"
 	{
