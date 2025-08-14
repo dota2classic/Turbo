@@ -1791,12 +1791,12 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"xp_multiplier" "2.5"
+				"xp_multiplier" "5.0"
 			}
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_gold" "190"
+				"bonus_gold" "380.0"
 			}
 			"04"
 			{

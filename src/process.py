@@ -35,5 +35,12 @@ def process_file(config_rules, path_in, path_out, file_type: FileType):
                         obj[key] = str(value)
                 elif mode == "set":
                     obj[key] = str(value)
+    # Hardcode midas values
+    if file_type == FileType.ITEMS:
+        midas = data[root_key]["item_hand_of_midas"]
+        xp_block = midas["AbilitySpecial"]["02"]
+        xp_block["xp_multiplier"] = str(float(xp_block["xp_multiplier"]) * 2)
+        gold_block = midas["AbilitySpecial"]["03"]
+        gold_block["bonus_gold"] = str(float(gold_block["bonus_gold"]) * 2)
 
     save_vdf(data, path_out)
