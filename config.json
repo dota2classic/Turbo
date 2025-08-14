@@ -143,8 +143,8 @@
     },
     {
       "mode": "mult",
-      "StatusHealth": 0.80,
-      "ArmorPhysical": 0.80,
+      "StatusHealth": 0.75,
+      "ArmorPhysical": 0.75,
       "classes": [
         "npc_dota_goodguys_tower1_top",
         "npc_dota_goodguys_tower1_mid",
@@ -158,8 +158,8 @@
     },
     {
       "mode": "mult",
-      "StatusHealth": 0.85,
-      "ArmorPhysical": 0.85,
+      "StatusHealth": 0.80,
+      "ArmorPhysical": 0.80,
       "classes": [
         "npc_dota_goodguys_tower2_top",
         "npc_dota_goodguys_tower2_mid",
@@ -171,8 +171,8 @@
     },
     {
       "mode": "mult",
-      "StatusHealth": 0.90,
-      "ArmorPhysical": 0.90,
+      "StatusHealth": 0.85,
+      "ArmorPhysical": 0.85,
       "classes": [
         "npc_dota_goodguys_tower3_top",
         "npc_dota_goodguys_tower3_mid",
@@ -221,7 +221,7 @@
     },
     {
       "mode": "set",
-      "SecretShop": 0,
+      "SecretShop": 1,
       "classes": [
         "item_energy_booster",
         "item_vitality_booster",
