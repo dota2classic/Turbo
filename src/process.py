@@ -41,6 +41,6 @@ def process_file(config_rules, path_in, path_out, file_type: FileType):
         #xp_block = midas["AbilitySpecial"]["02"]
         #xp_block["xp_multiplier"] = str(float(xp_block["xp_multiplier"]) * 2)
         gold_block = midas["AbilitySpecial"]["03"]
-        gold_block["bonus_gold"] = str(float(gold_block["bonus_gold"]) * 2)
+        gold_block["bonus_gold"] = str(int(gold_block["bonus_gold"]) * 2)
 
     save_vdf(data, path_out)

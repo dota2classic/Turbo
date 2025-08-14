@@ -1796,7 +1796,7 @@
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_gold" "380.0"
+				"bonus_gold" "380"
 			}
 			"04"
 			{
