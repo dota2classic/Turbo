@@ -180,7 +180,7 @@
 		"ItemShopTags" "armor"
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "platemail"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"AbilitySpecial"
 		{
 			"01"
@@ -548,7 +548,7 @@
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "ultimate orb"
 		"SideShop" "1"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"AbilitySpecial"
 		{
 			"01"
@@ -715,7 +715,7 @@
 		"ItemShopTags" "evasion"
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "talisman of evasion"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"AbilitySpecial"
 		{
 			"01"
@@ -1507,7 +1507,7 @@
 		"ItemShopTags" "damage"
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "demon edge"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"AbilitySpecial"
 		{
 			"01"
@@ -1525,7 +1525,7 @@
 		"ItemShopTags" "agi"
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "eaglesong"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"AbilitySpecial"
 		{
 			"01"
@@ -1543,7 +1543,7 @@
 		"ItemShopTags" "str"
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "reaver"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"AbilitySpecial"
 		{
 			"01"
@@ -1561,7 +1561,7 @@
 		"ItemShopTags" "damage"
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "sacred relic"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"AbilitySpecial"
 		{
 			"01"
@@ -1579,7 +1579,7 @@
 		"ItemShopTags" "attack_speed"
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "hyperstone"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"AbilitySpecial"
 		{
 			"01"
@@ -1638,7 +1638,7 @@
 		"ItemShopTags" "int"
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "mystic staff"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"AbilitySpecial"
 		{
 			"01"
@@ -1656,7 +1656,7 @@
 		"ItemShopTags" "mana_pool"
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "energy booster"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"SideShop" "1"
 		"AbilitySpecial"
 		{
@@ -1675,7 +1675,7 @@
 		"ItemShopTags" "mana_pool;health_pool"
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "point booster"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"AbilitySpecial"
 		{
 			"01"
@@ -1698,7 +1698,7 @@
 		"ItemShopTags" "health_pool"
 		"ItemQuality" "secret_shop"
 		"ItemAliases" "vitality booster"
-		"SecretShop" "0"
+		"SecretShop" "1"
 		"AbilitySpecial"
 		{
 			"01"
@@ -2215,14 +2215,14 @@
 		"ID" "84"
 		"AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		"ItemDeclarations" "DECLARE_PURCHASES_TO_TEAMMATES"
-		"ItemCost" "220"
+		"ItemCost" "99999"
 		"ItemShopTags" "consumable"
 		"ItemQuality" "consumable"
 		"ItemAliases" "crow;flying courier"
 		"ItemShareability" "ITEM_FULLY_SHAREABLE"
-		"ItemStockMax" "1"
+		"ItemStockMax" "0"
 		"ItemStockInitial" "0"
-		"ItemStockTime" "270.0"
+		"ItemStockTime" "7200.0"
 		"ItemSupport" "1"
 	}
 	"item_recipe_buckler"
