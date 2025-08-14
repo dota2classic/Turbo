@@ -1791,7 +1791,7 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"xp_multiplier" "5.0"
+				"xp_multiplier" "2.5"
 			}
 			"03"
 			{
